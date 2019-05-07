@@ -46,7 +46,7 @@ function greeting(name){
 //Name it newGreeting.
 
 //Code Here
-var newGreeting = function greeting(name){
+var newGreeting = function(name){
   return "Hello, " +name
 }
 //////////////////PROBLEM 8////////////////////
@@ -67,7 +67,7 @@ let groceries = ["apples", "milk", "eggs", "bread"]
 let dog = {
   name: "Rupert",
   color: "white",
-  age: "10",
+  age: 10,
   goodBoy: true
 }
 //...access the dog's name from the object and assign it to a
@@ -171,12 +171,16 @@ let pondScope = ["duck", "realDuck"];
 //Create a variable called age with your age assigned to you
 
 // Code Here
-let age = 55
+var age = 55
+// {
+//  tyler:55
+//}
+
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
 // Code Here
-age = age + 1
+age++
 // Good news! We can live forever. Set your age to 999
 
 // Code Here
