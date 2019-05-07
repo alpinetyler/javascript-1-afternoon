@@ -28,7 +28,7 @@ let greatestFear
 //Create a variable called devMountainGoal that is null because we are just starting out
 
 //Code here
-
+let devMountainGoal = null
 //////////////////PROBLEM 6////////////////////
 
 //Create a function declaration called greeting that
@@ -37,7 +37,7 @@ let greatestFear
 //plus the value of the name parameter.
 
 //Code here
-
+function greeting
 //////////////////PROBLEM 7////////////////////
 
 //Rewrite the function greeting as a function expression.
